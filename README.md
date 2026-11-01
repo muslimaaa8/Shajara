@@ -71,14 +71,6 @@ F["Она томони бобоси"] --- G["Она томони бувиси"]
 F & G --> H["Она"]
 E --- H
 E & H --> I["Мен"]
-initialize({
-    startOnLoad: true,
-    theme: 'default',
-    flowchart: {
-        curve: 'basis'
-    }
-});
-</script>
 
 </body>
 </html>
