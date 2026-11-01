@@ -1,0 +1,73 @@
+
+flowchart TB
+
+    %% ENG QADIMGI OTA-BОBOLAR
+
+    Usmon["Usmon"] --> Egamberdi["Egamberdi"]
+    Egamberdi --> Xudoybergan["Xudoybergan"]
+    Manzura["Manzura"] --> Xudoybergan
+
+    Muhammadrasul["Muhammadrasul"] --> Muborak["Muborak"]
+    Zuhra["Zuhra"] --> Muborak
+
+    Toirboy["Toirboy"] --> Toshkentboy["Toshkentboy"]
+    Toshkentboy --> Yoqubjon["Yoqubjon"]
+    Mahbuba["Mahbuba"] --> Yoqubjon
+
+    Normat["Normat"] --> Salima["Salima"]
+    Bori["Bori"] --> Salima
+
+    Qosimbek["Qosimbek"] --> Ergash["Ergash"]
+    Hadicha["Hadicha"] --> Ergash
+
+    Olimbek["Olimbek"] --> Paraxat["Paraxat"]
+    Anzirat["Anzirat"] --> Pazilat["Pazilat"]
+    Pazilat --> Paraxat
+
+    Rahmatxoja["Rahmatxoja"] --> Oytora["Oytora"]
+    Sharofat["Sharofat"] --> Oytora
+
+    %% BUVА VA BOBOLAR
+
+    Nigmatulla["Nigmatulla"] --> Fathulla["Fathulla"]
+    Oytora --> Fathulla
+
+    Ergash --> Latofat["Latofat"]
+    Paraxat --> Latofat
+
+    Xudoybergan --> Komiljon["Komiljon (1960)"]
+    Muborak --> Komiljon
+
+    Yoqubjon --> Xanifa["Xanifa (1961)"]
+    Salima --> Xanifa
+
+    %% OTA-ONA
+
+    Fathulla --> Shuxrat["Shuxrat (1984)"]
+    Latofat --> Shuxrat
+
+    Komiljon --> Nodira["Nodira (1987)"]
+    Xanifa --> Nodira
+
+    %% FARZANDLAR
+
+    Shuxrat --> Muslima["Muslima (2008)"]
+    Nodira --> Muslima
+
+    Shuxrat --> Diyora["Diyora (2010)"]
+    Nodira --> Diyora
+
+    Shuxrat --> Abdulaziz["Abdulaziz (2015)"]
+    Nodira --> Abdulaziz
+
+    %% STYLING
+
+    classDef current fill:#f9d5e5,stroke:#c2185b,color:#000,stroke-width:2px
+    classDef parents fill:#d6eaff,stroke:#2874a6,color:#000,stroke-width:2px
+    classDef grandparents fill:#d9f2e6,stroke:#27865b,color:#000
+    classDef ancestors fill:#fff0cc,stroke:#c28a20,color:#000
+
+    class Muslima,Diyora,Abdulaziz current
+    class Shuxrat,Nodira parents
+    class Fathulla,Latofat,Komiljon,Xanifa grandparents
+    class Usmon,Egamberdi,Manzura,Xudoybergan,Muborak,Muhammadrasul,Zuhra,Toirboy,Toshkentboy,Mahbuba,Yoqubjon,Normat,Bori,Salima,Qosimbek,Hadicha,Ergash,Olimbek,Paraxat,Pazilat,Anzirat,Rahmatxoja,Sharofat,Oytora,Nigmatulla,Fathulla,Latofat ancestors
