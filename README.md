@@ -62,7 +62,16 @@ E & H --> J["Укам"]
 </div>
 
 <script>
-mermaid.initialize({
+mermaid.graph TD
+A["Катта бобо"] --- B["Катта буви"]
+A & B --> C["Бобо"]
+A & B --> D["Буви"]
+C & D --> E["Ота"]
+F["Она томони бобоси"] --- G["Она томони бувиси"]
+F & G --> H["Она"]
+E --- H
+E & H --> I["Мен"]
+initialize({
     startOnLoad: true,
     theme: 'default',
     flowchart: {
